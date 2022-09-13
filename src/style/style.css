@@ -185,6 +185,7 @@ nav ul li:hover{
     left: 0;
     width: 100%;
     height: 100%;
+    border-radius: var(--border-radius);
 }
 .grid{
     display: flex;
