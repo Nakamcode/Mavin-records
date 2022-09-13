@@ -321,6 +321,9 @@ footer{
         padding: 0 2rem;
         width: 100%;
     }
+    .primary-btn{
+        font-size: 1.2rem;
+    }
     #hero .container{
         padding: 2rem;
     }
@@ -389,6 +392,8 @@ footer{
     }
     input{
         width: 100%;
+        font-size: 1.2em;
+        padding: 15px;
         margin-bottom: 2em;
     }
     .form .center{
