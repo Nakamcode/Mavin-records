@@ -272,9 +272,6 @@ nav ul li:hover{
     justify-content: center;
     margin: 2em 0;
 }
-.form .name{
-    /* width: 10rem; */
-}
 .form .email{
     width: 30em;
     margin: 0 10px;
@@ -382,9 +379,6 @@ footer{
     }
     .profile img{
         width: 100%;
-    }
-    .form{
-        /* display: none; */
     }
     .form .email{
         width: 100%;
