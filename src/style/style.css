@@ -80,6 +80,7 @@ button{
 .primary-btn{
     background-color: var(--primary-color);
     border: none;
+    color: #000;
 }
 .secondary-btn{
     background-color: transparent;
