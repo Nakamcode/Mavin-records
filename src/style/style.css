@@ -212,17 +212,17 @@ nav ul li:hover {
   border-radius: var(--border-radius);
   border: 2px solid var(--primary-color);
 }
-.card {
+.card-header {
   width: 17em;
   text-align: center;
 }
 .card-body {
   padding: 1em 0;
 }
-.card h3 {
+.card-header h3 {
   color: var(--secondary-color);
 }
-.card p {
+.card-header p {
   color: #ffffffc0;
   font-size: 0.8em;
   padding: 0.6em;
@@ -231,7 +231,7 @@ nav ul li:hover {
   width: 100%;
   height: 14em;
 }
-.card img {
+.card-header img {
   width: 100%;
   height: 100%;
   object-fit: cover;
