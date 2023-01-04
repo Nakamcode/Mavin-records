@@ -237,35 +237,55 @@ nav ul li:hover {
   object-fit: cover;
   border-radius: var(--border-radius);
 }
-.profile-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3em;
+
+/* card carousel */
+.nav-item a{
+  color: var(--secondary-color);
+}.nav-item a:hover{
+  color: var(--primary-color);
 }
-.profile {
-  position: relative;
-  width: 22em;
-  height: 18em;
+
+.card {
+  margin: 10px 12px;
+  padding: 6px !important;
+  transition: .6s ease;
+  background-color: var(--primary-color) !important;
 }
-.profile p {
-  position: absolute;
-  right: 0;
-  top: 0;
-  background-color: var(--primary-color);
-  z-index: 999;
-  border-radius: 0 var(--border-radius) 0 0;
-  color: #000;
-  text-align: center;
-  padding: 5px 0;
-  width: 50%;
+.card-title{
+  font-weight: 700;
 }
-.profile img {
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-block {
+   padding: 10px;
+}
+
+.scrollcards {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent;
+}
+
+div.scrollcards .card {
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+    height: auto; 
+    width: 300px;
+}
+.card-img-top{
+  aspect-ratio: 2/1.5;
   object-fit: cover;
-  width: 100%;
-  height: 100%;
-  border-radius: var(--border-radius);
 }
+
 .form {
   display: flex;
   align-items: center;
