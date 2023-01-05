@@ -9,7 +9,7 @@
 
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -19,8 +19,7 @@
 :root {
   --primary-color: #e1b959;
   --secondary-color: #fff;
-  --primary-font-family: "Open Sans", sans-serif;
-  --secondary-font-family: "Merriweather", serif;
+  --primary-font-family: "Manrope", sans-serif;
   --border-radius: 10px;
 }
 body {
@@ -37,7 +36,6 @@ body p {
 h1,
 h2,
 h3 {
-  font-family: var(--secondary-font-family);
   font-weight: 700;
 }
 h1,
