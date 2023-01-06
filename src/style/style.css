@@ -239,7 +239,9 @@ nav ul li:hover {
 /* card carousel */
 .nav-item a{
   color: var(--secondary-color);
-}.nav-item a:hover{
+}
+.nav-item a:hover, 
+.nav-item a:active{
   color: var(--primary-color);
 }
 
