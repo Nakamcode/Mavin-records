@@ -108,24 +108,8 @@ header {
   background-size: cover;
   background-position: center center;
 }
-nav {
-  padding: 10px 0;
-}
-nav ul {
-  display: flex;
-  gap: 20px;
-}
-nav ul li {
-  color: var(--secondary-color);
-  list-style: none;
-  cursor: pointer;
-}
-nav ul li:first-child {
-  color: var(--primary-color);
-}
-nav ul li:hover {
-  color: var(--primary-color);
-  transition: 0.5s ease-out;
+.navbar{
+  background-color: #121111;
 }
 .hero-copy {
   margin-top: 4.5em;
@@ -331,6 +315,8 @@ footer {
   gap: 1em;
 }
 
+/* 600px breakpoint ( mobile responsive ) */
+
 @media only screen and (max-width: 600px) {
   .container {
     padding: 0 2rem;
@@ -338,9 +324,6 @@ footer {
   }
   .primary-btn {
     font-size: 1.2rem;
-  }
-  #hero .container {
-    padding: 2rem;
   }
   h2 {
     font-size: 1.8rem;
@@ -434,5 +417,8 @@ footer {
   }
   .social-links {
     padding-top: 8px;
+  }
+  .navbar{
+    padding: 1rem 0;
   }
 }
