@@ -253,6 +253,7 @@ div.scrollcards .card {
   aspect-ratio: 2/1.5;
   object-fit: cover;
 }
+/* end of carousel */
 
 .form {
   display: flex;
