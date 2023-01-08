@@ -178,22 +178,6 @@ header {
   justify-content: space-between;
   margin-bottom: 60px;
 }
-.para {
-  width: 40%;
-}
-.para p {
-  margin-top: 25px;
-  line-height: 1.5;
-}
-.para h3 {
-  text-decoration: underline;
-  font-size: 1.6em;
-}
-.image-container img {
-  width: 32em;
-  border-radius: var(--border-radius);
-  border: 2px solid var(--primary-color);
-}
 .card-header {
   width: 17em;
   text-align: center;
@@ -328,22 +312,12 @@ footer {
   h2 {
     font-size: 1.8rem;
   }
-  .para h3 {
-    font-size: 1.5rem;
-  }
   body {
     width: 100%;
   }
   /* #trending{
         height: 85vh;
     } */
-  .grid {
-    display: flex;
-    flex-direction: column;
-  }
-  .row-reverse {
-    flex-direction: column-reverse;
-  }
   header {
     height: 100vh;
     /* padding: 2em; */
@@ -364,13 +338,6 @@ footer {
   .heading {
     margin: 0;
     margin-bottom: 2em;
-  }
-  .para {
-    width: 100%;
-    margin: 2em 0;
-  }
-  .image-container img {
-    width: 100%;
   }
   .card-header{
     width: 100%;
