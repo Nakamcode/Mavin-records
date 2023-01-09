@@ -300,6 +300,22 @@ footer {
   gap: 1em;
 }
 
+.image-full img{
+  width: 100%;
+  border-radius: var(--border-radius);
+  border: 2px solid var(--primary-color);
+}
+
+h3{
+  text-decoration: underline;
+  font-size: 1.6em;
+  margin-bottom: 2rem;
+}
+
+.row-margin{
+  margin-bottom: 8rem;
+}
+
 /* 600px breakpoint ( mobile responsive ) */
 
 @media only screen and (max-width: 600px) {
@@ -388,5 +404,13 @@ footer {
   }
   .navbar{
     padding: 1rem 0;
+  }
+  .reverse-position{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .image-full img{
+    margin-bottom: 1.5rem;
   }
 }
