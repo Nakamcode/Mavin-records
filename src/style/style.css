@@ -31,7 +31,7 @@ body {
 /* ------------------------------ Global Style ------------------------------ */
 body p {
   color: var(--secondary-color);
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 h1,
 h2,
@@ -43,7 +43,7 @@ h2 {
   text-align: center;
 }
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 h2 {
   color: var(--secondary-color);
@@ -102,7 +102,7 @@ button {
 /* -------------------------- Global Style end here ------------------------- */
 
 header {
-  height: 95vh;
+  height: 100vh;
   background-image: url(../images/bg.jpg);
   object-fit: cover;
   background-size: cover;
@@ -130,9 +130,6 @@ header {
   border-radius: var(--border-radius);
   gap: 3.1em;
   padding: 1.2em;
-  position: absolute;
-  transform: (-50%, -50%);
-  bottom: -20px;
 }
 .statistics h2 span {
   display: block;
@@ -315,6 +312,9 @@ h3{
 .row-margin{
   margin-bottom: 8rem;
 }
+.row{
+  --bs-gutter-x: 6rem;
+}
 
 /* 600px breakpoint ( mobile responsive ) */
 
@@ -412,5 +412,8 @@ h3{
 
   .image-full img{
     margin-bottom: 1.5rem;
+  }
+  .statistics{
+    margin-top: 6rem;
   }
 }
