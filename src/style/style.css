@@ -54,12 +54,7 @@ h3 {
   color: var(--primary-color);
   font-size: 1em;
 }
-.container {
-  width: 100%;
-  padding: 0 4em;
-  max-width: 1200px;
-  margin: auto;
-}
+
 .flex {
   display: flex;
   align-items: center;
