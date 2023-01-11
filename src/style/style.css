@@ -319,22 +319,12 @@ h3{
 /* 600px breakpoint ( mobile responsive ) */
 
 @media only screen and (max-width: 600px) {
-  .container {
-    padding: 0 2rem;
-    width: 100%;
-  }
   .primary-btn {
     font-size: 1.2rem;
   }
   h2 {
     font-size: 1.8rem;
   }
-  body {
-    width: 100%;
-  }
-  /* #trending{
-        height: 85vh;
-    } */
   header {
     height: 100vh;
     /* padding: 2em; */
@@ -415,5 +405,8 @@ h3{
   }
   .statistics{
     margin-top: 6rem;
+  }
+  .copyright{
+    font-size: 0.8rem;
   }
 }
